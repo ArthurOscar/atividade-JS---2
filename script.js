@@ -61,3 +61,13 @@ verificarTamanho(palavra)
 
 let frutas = ["Maçã", "Banana", "Mamão", "Morango", "Uva"]
 console.log(frutas[2])
+
+// Atividade 17
+
+function saudacao(nome){
+    let saudacao = "Bem-Vindo(a) "
+    console.log(saudacao + nome)
+}
+
+let nome = prompt("Digite seu nome")
+saudacao(nome)
