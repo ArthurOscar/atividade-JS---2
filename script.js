@@ -35,9 +35,24 @@ console.log("O valor final é de " + valorfinal)
 
 // Atividade 14
 
-function Atividade14(){
+function substituirPalavra(){
     let texto = prompt("Digite uma frase ou texto com a palavra azul")
     console.log(texto.replace(/azul/g, "vermelho"));
 }
 
-Atividade14()
+substituirPalavra()
+
+// Atividade 15
+
+function verificarTamanho(palavra){
+    if (palavra.length > 10) {
+        console.log("Tem mais de 10 caracteres")
+    } if (palavra.length < 10){
+        console.log("Tem menos de 10 caracteres")
+    } if (palavra.length === 10){
+        console.log("Tem 10 carateres")
+    }
+}
+
+let palavra = prompt("Digite uma palavra")
+verificarTamanho(palavra)
