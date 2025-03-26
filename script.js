@@ -71,3 +71,16 @@ function saudacao(nome){
 
 let nome = prompt("Digite seu nome")
 saudacao(nome)
+
+// Atividade 18
+
+function verificarAprovacao(nota){
+    if (nota >= 6){
+        console.log("Parabéns, com sua nota " + nota + " você foi aprovado")
+    } else {
+        console.log("Infelizmente você reprovou por ter uma nota de " + nota)
+    }
+}
+
+let nota = parseFloat(prompt("Digite sua nota"))
+verificarAprovacao(nota)
