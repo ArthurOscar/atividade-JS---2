@@ -93,3 +93,20 @@ for(let i = 0; i <=30; i++){
         console.log(i)
     }
 }
+
+// Atividade 20
+
+function contarVogais(palavra){
+    let vogais = palavra.split("")
+    let quantidade = 0
+    let i = 0
+    while(i <= palavra.length){
+        i++
+        if(vogais[i] = "a", "e", "i", "o", "u"){
+            quantidade = quantidade + 1
+        }
+    }
+    console.log(quantidade + " vogais")
+}
+
+contarVogais("arroz")
