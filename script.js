@@ -32,3 +32,12 @@ while(i < 100){
     valorfinal = i + valorfinal
 }
 console.log("O valor final é de " + valorfinal)
+
+// Atividade 14
+
+function Atividade14(){
+    let texto = prompt("Digite uma frase ou texto com a palavra azul")
+    console.log(texto.replace(/azul/g, "vermelho"));
+}
+
+Atividade14()
