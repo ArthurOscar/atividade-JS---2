@@ -56,3 +56,8 @@ function verificarTamanho(palavra){
 
 let palavra = prompt("Digite uma palavra")
 verificarTamanho(palavra)
+
+// Atividade 16
+
+let frutas = ["Maçã", "Banana", "Mamão", "Morango", "Uva"]
+console.log(frutas[2])
