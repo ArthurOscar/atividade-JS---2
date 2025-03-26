@@ -22,3 +22,13 @@ function converterTemperatura(temp){
 
 let temp = parseFloat(prompt("Digite a temperatura em Graus Celsius"))
 converterTemperatura(temp)
+
+// Atividade 13
+
+let i = 0
+let valorfinal = 0
+while(i < 100){
+    i = i + 1
+    valorfinal = i + valorfinal
+}
+console.log("O valor final é de " + valorfinal)
