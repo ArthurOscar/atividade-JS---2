@@ -132,3 +132,13 @@ function dobrarValor(numerodobro){
 
 let numerodobro = parseInt(prompt("Digite um valor para o dobro"))
 dobrarValor(numerodobro)
+
+// Atividade 23
+
+i = 2
+while(i <= 20){
+    if(i % 2 === 0){
+        console.log( i + " é par")
+    }
+    i++
+}
