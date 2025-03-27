@@ -122,3 +122,13 @@ function somarArray(){
 }
 
 somarArray()
+
+// Atividade 22
+
+function dobrarValor(numerodobro){
+      let n1dobro = numerodobro*2
+      console.log(n1dobro + " é o dobro de " + numerodobro)
+}
+
+let numerodobro = parseInt(prompt("Digite um valor para o dobro"))
+dobrarValor(numerodobro)
