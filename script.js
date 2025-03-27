@@ -100,9 +100,9 @@ function contarVogais(vogal) {
     let vogais = vogal.split("")
     let quantidade = 0
     let i = 0
-     
+
     while (i <= vogal.length) {
-        if ((vogais[i] === "a")  || (vogais[i] === "e") || (vogais[i] ==="i") || (vogais[i] === "o") || (vogais[i] === "u")) {
+        if ((vogais[i] === "a") || (vogais[i] === "e") || (vogais[i] === "i") || (vogais[i] === "o") || (vogais[i] === "u")) {
             quantidade = quantidade + 1;
         };
 
@@ -125,9 +125,9 @@ somarArray() */
 
 // Atividade 22
 
-function dobrarValor(numerodobro){
-      let n1dobro = numerodobro*2
-      console.log(n1dobro + " é o dobro de " + numerodobro)
+function dobrarValor(numerodobro) {
+    let n1dobro = numerodobro * 2
+    console.log(n1dobro + " é o dobro de " + numerodobro)
 }
 
 let numerodobro = parseInt(prompt("Digite um valor para o dobro"))
@@ -136,18 +136,28 @@ dobrarValor(numerodobro)
 // Atividade 23
 
 i = 2
-while(i <= 20){
-    if(i % 2 === 0){
-        console.log( i + " é par")
+while (i <= 20) {
+    if (i % 2 === 0) {
+        console.log(i + " é par")
     }
     i++
 }
 
 // Atividade 24
 
-function capitalizar(){
+function capitalizar() {
     let texto = prompt("Digite uma palavra:")
     console.log(texto.charAt(0).toUpperCase() + texto.slice(1))
 }
 
 capitalizar()
+
+// Atividade 25
+
+function anoBissexto(ano) {
+    let bissexto = (ano % 4 == 0) && (ano % 100 != 0) || (ano % 400 == 0)
+    console.log(bissexto)
+}
+
+let ano = parseInt(prompt("Digite um ano"))
+anoBissexto(ano)
