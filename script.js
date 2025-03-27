@@ -113,3 +113,12 @@ function contarVogais(vogal) {
 
 let vogal = prompt("Digite uma palavra com vogais")
 contarVogais(vogal)
+
+// Atividade 21
+
+function somarArray(){
+    let valores = prompt("Digite valores separados por vírgula").split(",").map(Number);
+    console.log("Soma:", valores.reduce(acc, val) => acc + val)
+}
+
+somarArray()
