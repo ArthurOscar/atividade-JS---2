@@ -116,12 +116,12 @@ contarVogais(vogal)
 
 // Atividade 21
 
-function somarArray(){
+/* function somarArray(){
     let valores = prompt("Digite valores separados por vírgula").split(",").map(Number);
     console.log("Soma:", valores.reduce(acc, val) => acc + val)
 }
 
-somarArray()
+somarArray() */
 
 // Atividade 22
 
@@ -142,3 +142,12 @@ while(i <= 20){
     }
     i++
 }
+
+// Atividade 24
+
+function capitalizar(){
+    let texto = prompt("Digite uma palavra:")
+    console.log(texto.charAt(0).toUpperCase() + texto.slice(1))
+}
+
+capitalizar()
